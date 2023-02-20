@@ -12,7 +12,7 @@ int main(void)
 	{
 		j = i / 100; /* hundreds */
 		k = (i / 10) % 10; /* tens */
-		l = i % 100; /* units */
+		l = i % 10; /* units */
 		if (j < k && k < l)
 		{
 			putchar(l + '0');
